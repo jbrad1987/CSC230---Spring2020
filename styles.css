@@ -11,6 +11,10 @@
 body {
     margin: 15px 30px;
 }
+header {
+    background-color: #CC99CC;
+    color: #660066
+}
 
 header h1, h3 {
     background-color: #CC99CC;
