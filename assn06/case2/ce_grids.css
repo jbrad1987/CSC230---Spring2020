@@ -1,0 +1,63 @@
+@charset "utf-8";
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 3
+   Case Problem 2
+   
+   Style Sheet for Grids used in the Costume Expressions Front Page
+   Author: John Bradley
+   Date:   05/17/2020
+   
+   Filename: ce_grids.css
+
+*/
+
+
+/* Grid Rows Styles */
+div {
+   width: 100%;
+ 
+}
+div.row {
+   overflow: auto;
+}
+
+
+/* Grid Columns Styles */
+div[class^="column-"] {
+   float: left;
+}
+div[class^="column100"] {
+   width: 75%;
+}
+div[class^="column50"] {
+   width: 50%;
+}
+div[class^="column33"] {
+   width: 45%;
+}
+div[class^="column67"] {
+   width: 40%;
+} 
+div[class^="column25"] {
+   width: 35%;
+}
+div[class^="column75"] {
+   width: 30%;
+}
+div[class^="column20"] {
+   width: 25%
+}
+div[class^="column40"] {
+   width: 20%
+}
+div[class^="column60"] {
+   width: 15%;
+}
+div[class^="column80"] {
+   width: 100%;
+}
+
+
+/* Grid Spacing Styles */
+
