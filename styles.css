@@ -1,0 +1,18 @@
+/*
+    Author: John Bradley
+    Date: 05/20/2020
+*/
+
+* {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+body {
+    margin: 15px 30px;
+}
+
+header h1, h3 {
+    background-color: #CC99CC;
+    color: #660066
+}
