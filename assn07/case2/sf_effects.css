@@ -28,7 +28,7 @@ body > header nav.tabs {
 }
 body > header nav#tabs li {
    perspective: 50px;
-   transform: rotate(-20deg);
+   transform: rotateX(20deg);
 }
 body > header nav.tabs li > a:hover {
    background-color: rgb(231, 231, 231);
@@ -39,14 +39,28 @@ section#left nav.vertical {
    border: 1px solid rgb(20, 167, 170);
    border-radius: 25px;
 }
-
+section#left nav.vertical h1 {
+   border-top-left-radius: 25px;
+   border-top-right-radius: 25px;
+}
 
 
 /* Center Article Styles */
-
+section#center > article {
+   background: radial-gradient(white, rgb(151, 151, 151));
+   border: 1px solid rgb(151, 151, 151);
+   border-radius: 50px;
+   box-shadow: rgb(51, 51, 51) 10px 0px 20px;
+   
+}
 
 
 
 /* Blockquote Styles */
-
-
+blockquote {
+   background: url(sf_speech.png) 0% / 100% cover no-repeat;
+   box-shadow: rgb(51, 51, 51) 5px 5px 10px;
+}
+cite img {
+   border-radius: 50%;
+}
