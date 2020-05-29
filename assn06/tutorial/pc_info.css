@@ -22,7 +22,7 @@ main {
 
 
 /* Infographic Styles */
-div.infobox{
+div.infobox {
    position: absolute;
 }
 
@@ -54,7 +54,7 @@ div#info3 {
 /* Fourth Infographic */
 div#info4 {
    display: block;
-   top: 800px;
+   top: 510px;
    left: 8%;
 }
 

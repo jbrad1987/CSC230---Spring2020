@@ -33,6 +33,7 @@ body > section {
    border: 1px inset rgb(151, 151, 151);
    border-radius: 10px;
    box-shadow: rgb(51, 51, 51) 10px 10px 10px;
+   padding: 0;
 }
 figure {
    border-style: solid;
@@ -51,11 +52,13 @@ footer  h2 {
    text-align: center;
    background-color: #CC99CC;
    color: #660066;
-   
+   background: radial-gradient(white, #421C52);
    box-shadow: rgb(51, 51, 51) 25px 0px 15px,
                 rgb(51, 51, 51) -25px 0px 15px;
 }
 footer a {
    text-align: center;
    font-size: 1em;
+   color: black;
+   background: radial-gradient(white, #421C52);
 }

@@ -32,7 +32,7 @@ header > ul > li > a {
 
 
 /* Row Styles */
-div.row a {
+div.row {
    clear: both;
 }
 div.row::after {
