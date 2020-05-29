@@ -33,10 +33,10 @@ header > ul > li > a {
 
 /* Row Styles */
 div.row {
-   clear: both;
+   clear: cover;
 }
 div.row::after {
-   clear: both;
+   clear: cover;
    content: "";
    display: table;
 }
@@ -46,15 +46,15 @@ body > header > img {
    display: block;
    width: 70%;
    float: left;
-   margin: left;
+   
 }
-body > header > nav > ul > nav.horizontalNavigation li {
+body > header > nav > ul > nav.horizontal li {
    width:30%;
    display: vertical;
    padding-left: 2%;
    padding-right: 2%;
 }
-body > header > nav > ul > nav.horizontalNavigation a {
+body > header > nav > ul > nav.horizontal a {
    display: block;
    width: 100%;
 }
