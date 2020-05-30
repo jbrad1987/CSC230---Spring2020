@@ -14,50 +14,55 @@
 
 
 /* Grid Rows Styles */
-div {
+div.row {
    width: 100%;
- 
+   clear: both;
 }
 div.row {
-   overflow: auto;
+   display: block;
+   float: left;
 }
 
 
 /* Grid Columns Styles */
-div[class^="column-"] {
+div[class^="column"] {
    float: left;
 }
-div[class^="column100"] {
-   width: 75%;
+div.column100 {
+   width: 100%;
 }
-div[class^="column50"] {
+div.column50 {
    width: 50%;
 }
-div[class^="column33"] {
-   width: 45%;
+div.column33 {
+   width: 33%;
 }
-div[class^="column67"] {
-   width: 40%;
+div.column67 {
+   width: 67%;
 } 
-div[class^="column25"] {
-   width: 35%;
+div.column25 {
+   width: 25%;
 }
-div[class^="column75"] {
-   width: 30%;
+div.column75 {
+   width: 70%;
 }
-div[class^="column20"] {
-   width: 25%
-}
-div[class^="column40"] {
+div.column20 {
    width: 20%
 }
-div[class^="column60"] {
-   width: 15%;
+div.column40 {
+   width: 20%
 }
-div[class^="column80"] {
-   width: 100%;
+div.column60 {
+   width: 60%;
+}
+div.column80 {
+   width: 80%;
 }
 
 
 /* Grid Spacing Styles */
-
+container, row, .column, .cell, div.a, div.cel {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}

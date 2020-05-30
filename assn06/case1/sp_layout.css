@@ -18,50 +18,49 @@ html {
    height: 100%;
 }
 body {
-   margin-left: auto;
-   margin-right: auto;
+   margin: 0 auto;
    max-width: 960px;
    min-width: 640px;
    width: 95%;
    min-height: 100%;
 
 }
-header > ul > li > a {
+header, ul,  nav, li, a {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
    box-sizing: border-box;
 }
 
 
 /* Row Styles */
-div.row {
-   clear: cover;
+.row {
+   clear: both;
 }
-div.row::after {
-   clear: cover;
+.row::after {
+   clear: both;
    content: "";
    display: table;
 }
 
 /* Page Header Styles */
-body > header > img {
+header > img {
    display: block;
    width: 70%;
    float: left;
    
 }
-body > header > nav > ul > nav.horizontal li {
+header nav {
+   float: left;
    width:30%;
    display: vertical;
    padding-left: 2%;
    padding-right: 2%;
 }
-body > header > nav > ul > nav.horizontal a {
+header > nav > ul > li > a {
    display: block;
    width: 100%;
 }
 
-body > nav > ul > li {
-   display: horizontal;
-}
 
 
 
@@ -69,38 +68,29 @@ body > nav > ul > li {
 
 
 /* Horizontal Navigation List Styles */
-body > nav > ul > li {
-   display: horizontal;
-}
-body > nav > ul > nav.horizontalNavigation li {
+nav.horizonral > ul > li {
    display: block;
    width: 12.5%;
    float: left;
 }
-body > nav > ul > nav.horizontalNavigation a {
-   display: block;
-   width: 100%;
-}
 
 /* Topics Styles */
-div.horizontal > ul > li {
-   display: horizontal;
-}
-div.horizontal#topics > ul > li {
+ul#topics > li {
    display: block;
    width: 20%;
    float: left;
    margin-left: 0%;
    margin-right: 1.5%;
 }
-div.horizontal#topics > ul > li {
+ul#topics > li:first-child {
    margin-left: 7.75%;
-   margin-right: 7.55%;
 }
-div.horizontal#topic1 img {
+ul#topics > li:last-child {
+   margin-right: 7.75%;
+}
+ul#topics > li > img {
 display: block;
 width: 50%;
-float: center;
 margin-left: auto;
 margin-right: auto;
 }
