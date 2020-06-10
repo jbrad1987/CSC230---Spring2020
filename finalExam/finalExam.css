@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*-------------------
+    Author: John Bradley
+    Date: 05/20/2020
+------------------------*/
+html {
+    background-color: black;
+}
+body {
+    font-family: Verdana, 'Tacoma', Helvetica;
+    font-size: 1.3em;
+    width: 85%;
+    margin: auto;
+    background-color: #336699;
+}
+nav {
+    text-decoration: none;
+    color: #FF6600;
+    list-style-type: none;
+    text-align: left;
+    display: horizontal;
+    margin: 0%;
+    padding: 25px;
+    
+}
+section h1 {
+    background-color: #FF6600;
+}
