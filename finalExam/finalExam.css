@@ -6,6 +6,22 @@
 html {
     background-color: black;
 }
+header h1 {
+    font-size: 36pt;
+    margin: 35px 0px 0px 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+header h3 {
+    font-size: 24pt;
+    margin: 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 0px;
+    padding-bottom: 0px
+}
 body {
     font-family: Verdana, 'Tacoma', Helvetica;
     font-size: 1.3em;
@@ -17,12 +33,44 @@ nav {
     text-decoration: none;
     color: #FF6600;
     list-style-type: none;
+    position: relative;
     text-align: left;
     display: horizontal;
     margin: 0%;
     padding: 25px;
+    width: 25%;
     
 }
 section h1 {
     background-color: #FF6600;
+}
+table {
+    border: none;
+    padding: 5px 5px 2px 2px;
+    width: 90%;
+    margin-left: 30px;
+}
+html h1 {
+    font: Arial;
+    font-size: 22pt;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    padding: 15px 0px 0px 15;
+}
+html h3 {
+    font: Arial;
+    font-size: 16pt;
+    text-align: left;
+}
+p {
+    margin: 15px;
+    padding: 15px;
+}
+a {
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: none;
+    color: blueviolet
 }
