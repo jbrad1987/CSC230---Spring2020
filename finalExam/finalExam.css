@@ -4,7 +4,7 @@
     Date: 05/20/2020
 ------------------------*/
 html {
-    background-color: black;
+    background-color: #333366; 
 }
 header h1 {
     font-size: 36pt;
@@ -22,34 +22,57 @@ header h3 {
     padding-right: 0px;
     padding-bottom: 0px
 }
+header img {
+    width: 150px;
+    border: 1px solid;
+    float: right;
+    display: block;
+    margin: -117px -7px -55px;
+    height: 155px;
+    
+}
 body {
     font-family: Verdana, 'Tacoma', Helvetica;
     font-size: 1.3em;
     width: 85%;
-    margin: auto;
+    margin: 30px 125px 0px;
     background-color: #336699;
 }
 nav {
     text-decoration: none;
-    color: #FF6600;
+    color: white;
     list-style-type: none;
     position: relative;
     text-align: left;
     display: horizontal;
-    margin: 0%;
+    margin: 10px 15px 0px;
     padding: 25px;
     width: 25%;
     
 }
-section h1 {
-    background-color: #FF6600;
+section {
+    width: 75%;
+    margin: 0px 410px 0px;
+    background-color: #CCFFFF;
+    
 }
+section.aboutMe h1 {
+    background-color: #FF6600;
+    margin: -120px 0px 0px;
+}
+section.assignments h1 {
+    background-color: #FF6600;
+    margin: -15px 0px 0px;
+    display: block;
+    
+}
+
 table {
     border: none;
     padding: 5px 5px 2px 2px;
-    width: 90%;
-    margin-left: 30px;
-    color: #CCFFFF;
+    width: 75%;
+    margin-left: 405px;
+    background-color: #CCFFFF;
 }
 html h1 {
     font: Arial;
@@ -57,7 +80,7 @@ html h1 {
     text-align: left;
     letter-spacing: 2px;
     margin: 0px;
-    padding: 15px 0px 0px 15;
+    padding: 15px 0px 0px 10px;
 }
 html h3 {
     font: Arial;
@@ -73,5 +96,28 @@ a {
 }
 a:hover {
     text-decoration: none;
-    color: blueviolet
+    color: white;
+}
+a::after {
+    text-decoration: none;
+    color: white;
+}
+table th {
+    font-size: 1em;
+    text-align: center;
+    background-color: #666666;
+    margin: 55px 0px 20px;
+}
+table td {
+    font-size: 0.85em;
+    text-align: center;
+    margin: 50px 0px 15px;
+}
+footer {
+    color: orange;
+    text-align: center;
+    margin: 0px 600px -100px;
+    background: radial-gradient(#336699, #333366);
+    border-radius: 10px;
+    width: 50%;
 }
