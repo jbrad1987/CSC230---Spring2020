@@ -1,7 +1,16 @@
 @charset "utf-8";
 /*-------------------
+    Final Exam.CSS
+    Week 10
     Author: John Bradley
     Date: 05/20/2020
+    Files: finalExam.html
+                    finalExam.css
+                    images/picture.jpg
+
+            This site uses hyperlinks, table and sections in HTML. With CSS, I chose the same color scheme as my bowling ball. I was having trouble committing to one scheme
+            so I scratche everything and revamped the scheme. I set the parameters for the elements listed in the .css layout, however over time I had to adjust margins in order
+            so get the positioning correctly.
 ------------------------*/
 html {
     background-color: #333366; 
