@@ -37,8 +37,7 @@ header img {
     float: right;
     display: block;
     margin: -117px -7px -55px;
-    height: 155px;
-    
+    height: 155px; 
 }
 body {
     font-family: Verdana, 'Tacoma', Helvetica;
@@ -101,7 +100,8 @@ p {
     padding: 15px;
 }
 a {
-    text-decoration: none; 
+    text-decoration: none;
+    position: relative;
 }
 a:hover {
     text-decoration: none;
